@@ -384,6 +384,7 @@ body {
   margin-top: -30px;
 }
 .portfolio-item-example {
+  display: flex;
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
@@ -424,9 +425,6 @@ body {
   font-size: 16px;
   line-height: calc(30 / 16);
   color: var(--main-color);
-}
-.portfolio-item-example {
-  display: flex;
 }
 .portfolio-link-example:hover,
 .portfolio-link-example:focus {
